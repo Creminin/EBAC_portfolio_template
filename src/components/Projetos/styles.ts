@@ -1,0 +1,15 @@
+import styled from 'styled-components'
+
+export const Card = styled.div`
+  border: 1px solid ${(props) => props.theme.corDaBorda};
+  padding: 16px;
+`
+
+export const LinkButon = styled.a`
+  color: ${(props) => props.theme.corDeFundo};
+  font-size: 14px;
+  background: ${(props) => props.theme.corDeFundoBotao};
+  padding: 8px;
+  display: inline-block;
+  margin-top: 24px;
+`
